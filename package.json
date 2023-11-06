@@ -19,6 +19,7 @@
   "homepage": "https://github.com/matteo-gildone/figma-workflow#readme",
   "devDependencies": {
     "@divriots/style-dictionary-to-figma": "^0.4.0",
+    "@tokens-studio/sd-transforms": "^0.11.9",
     "style-dictionary": "^3.9.0"
   }
 }

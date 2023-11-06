@@ -1,15 +1,7 @@
-const { transform } = require('@divriots/style-dictionary-to-figma');
+const { registerTransforms } = require('@tokens-studio/sd-transforms');
 const StyleDictionary = require('style-dictionary');
 
-
-console.log(__dirname);
-StyleDictionary.registerFormat({
-    name: 'figmaTokensPlugin',
-    formatter: ({ dictionary }) => {
-        const transformedTokens = transform(dictionary.tokens);
-        return JSON.stringify(transformedTokens, null, 2);
-    },
-});
+registerTransforms(StyleDictionary);
 // create a funcion
 function getStyleDictionaryConfig() {
     return {
@@ -17,20 +9,18 @@ function getStyleDictionaryConfig() {
         source: [
             `${__dirname}/tokens/alias/**/*.json`
         ],
-        format: {
-            figmaTokensPlugin: ({ dictionary }) => {
-                const transformedTokens = transform(dictionary.tokens);
-                return JSON.stringify(transformedTokens, null, 2);
-            },
-        },
         platforms: {
             json: {
-                transformGroup: 'js',
+                transformGroup: 'tokens-studio',
                 buildPath: './',
                 files: [
                     {
                         'destination': 'tokens.json',
-                        'format': 'figmaTokensPlugin'
+                        'format': 'json/nested',
+                        options: {
+                            outputReferences: true,
+                            showFileHeader: false
+                        }
                     },
                 ],
             },
