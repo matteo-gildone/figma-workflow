@@ -1,0 +1,8 @@
+{
+  "typography": {
+    "base": {
+      "value": "{font-size.font.medium.value}",
+      "comment": "the base size of the font"
+    }
+  }
+}

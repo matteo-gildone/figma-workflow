@@ -1,0 +1,24 @@
+{
+  "name": "figma-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build-design-tokens.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tokens:figma": "node ./build-design-tokens.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteo-gildone/figma-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matteo-gildone/figma-workflow/issues"
+  },
+  "homepage": "https://github.com/matteo-gildone/figma-workflow#readme",
+  "devDependencies": {
+    "@divriots/style-dictionary-to-figma": "^0.4.0",
+    "style-dictionary": "^3.9.0"
+  }
+}
