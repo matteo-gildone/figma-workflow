@@ -1,18 +1,16 @@
 {
   "font-size": {
-    "font": {
-      "small" : {
-        "value": "0.75rem",
-        "comment": "the small size of the font"
-      },
-      "medium": {
-        "value": "1rem",
-        "comment": "the medium size of the font"
-      },
-      "large" : {
-        "value": "2rem",
-        "comment": "the large size of the font"
-      }
+    "small" : {
+      "value": "0.75rem",
+      "comment": "the small size of the font"
+    },
+    "medium": {
+      "value": "1rem",
+      "comment": "the medium size of the font"
+    },
+    "large" : {
+      "value": "2rem",
+      "comment": "the large size of the font"
     }
   }
 }
