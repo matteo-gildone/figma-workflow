@@ -6,6 +6,7 @@
         "medium": { "value": "#999999" },
         "dark"  : { "value": "#111111" }
       },
+      "yellow": { "value": "#0000ff" },
       "red": { "value": "#FF0000" },
       "green": { "value": "#00FF00" }
     }
