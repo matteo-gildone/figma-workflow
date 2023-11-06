@@ -16,11 +16,7 @@ function getStyleDictionaryConfig() {
                 files: [
                     {
                         'destination': 'tokens.json',
-                        'format': 'json',
-                        options: {
-                            outputReferences: true,
-                            showFileHeader: false
-                        }
+                        'format': 'json'
                     },
                 ],
             },
