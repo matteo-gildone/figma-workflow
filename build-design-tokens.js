@@ -16,7 +16,7 @@ function getStyleDictionaryConfig() {
                 files: [
                     {
                         'destination': 'tokens.json',
-                        'format': 'json/nested',
+                        'format': 'json',
                         options: {
                             outputReferences: true,
                             showFileHeader: false
