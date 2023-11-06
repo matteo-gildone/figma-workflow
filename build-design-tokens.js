@@ -5,9 +5,8 @@ registerTransforms(StyleDictionary);
 // create a funcion
 function getStyleDictionaryConfig() {
     return {
-        include: [`${__dirname}/tokens/literal/**/*.json`],
         source: [
-            `${__dirname}/tokens/alias/**/*.json`
+            `${__dirname}/tokens/**/*.json`
         ],
         platforms: {
             json: {
