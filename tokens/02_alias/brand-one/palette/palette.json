@@ -1,15 +1,15 @@
 {
   "palette": {
     "primary": {
-      "value": "{color.base.red.value}",
+      "value": "{color.base.red}",
       "type": "color"
     },
     "secondary": {
-      "value": "{color.base.green.value}",
+      "value": "{color.base.green}",
       "type": "color"
     },
     "tertiary": {
-      "value": "{color.base.gray.light.value}",
+      "value": "{color.base.gray.light}",
       "type": "color"
     }
   }
