@@ -28,11 +28,11 @@
     },
     "state": {
       "hover": {
-        "value": "{color.base.base.yellow}",
+        "value": "{color.base.yellow}",
         "type": "color"
       },
       "focus": {
-        "value": "{color.base.blue.light}",
+        "value": "{color.base.blue.dark}",
         "type": "color"
       },
       "active": {
