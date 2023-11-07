@@ -1,9 +1,16 @@
 {
   "typography": {
     "base": {
-      "value": "{font-size.medium}",
-      "comment": "the base size of the font",
-      "type": "fontFamilies"
+      "size": {
+        "value": "{font-size.medium}",
+        "comment": "the base size of the font",
+        "type": "fontSizes"
+      },
+      "family": {
+        "value": "{font-family.base}",
+        "comment": "the base size of the font",
+        "type": "fontFamilies"
+      }
     }
   }
 }

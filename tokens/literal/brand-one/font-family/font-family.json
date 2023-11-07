@@ -1,0 +1,9 @@
+{
+  "font-family": {
+    "base" : {
+      "value": "Lato",
+      "comment": "base font family",
+      "type": "fontFamilies"
+    }
+  }
+}
