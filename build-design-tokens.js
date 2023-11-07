@@ -3,10 +3,11 @@ const StyleDictionary = require('style-dictionary');
 
 registerTransforms(StyleDictionary);
 // create a funcion
-function getStyleDictionaryConfig() {
+function getStyleDictionaryConfig(brand) {
     return {
         source: [
-            `${__dirname}/tokens/**/*.json`
+            `${__dirname}/tokens/literal/${brand}/**/*.json`,
+            `${__dirname}/tokens/alias/${brand}/**/*.json`
         ],
         platforms: {
             json: {
@@ -14,7 +15,7 @@ function getStyleDictionaryConfig() {
                 buildPath: './',
                 files: [
                     {
-                        'destination': 'tokens.json',
+                        'destination': `${brand}-tokens.json`,
                         'format': 'json'
                     },
                 ],
@@ -32,7 +33,7 @@ function getStyleDictionaryConfig() {
     console.log(`\nProcessing: [${brand}]`);
 
     // const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(brand, aliases));
-    const brands = StyleDictionary.extend(getStyleDictionaryConfig());
+    const brands = StyleDictionary.extend(getStyleDictionaryConfig(brand));
     brands.buildAllPlatforms();
 
     console.log('\nEnd processing');

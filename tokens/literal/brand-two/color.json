@@ -2,12 +2,27 @@
   "color": {
     "base": {
       "gray": {
-        "light" : { "value": "#DDDDDD" },
-        "medium": { "value": "#333333" },
-        "dark"  : { "value": "#111111" }
+        "light": {
+          "value": "#DDDDDD",
+          "type": "color"
+        },
+        "medium": {
+          "value": "#333333",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#111111",
+          "type": "color"
+        }
       },
-      "red": { "value": "#FF0000" },
-      "green": { "value": "#00FF00" }
+      "red": {
+        "value": "#FF0000",
+        "type": "color"
+      },
+      "green": {
+        "value": "#00FF00",
+        "type": "color"
+      }
     }
   }
 }

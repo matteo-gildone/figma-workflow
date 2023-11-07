@@ -1,0 +1,96 @@
+{
+  "color": {
+    "base": {
+      "gray": {
+        "light": {
+          "value": "#DDDDDD",
+          "type": "color",
+          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/literal/brand-two/color.json",
+          "isSource": true,
+          "original": {
+            "value": "#DDDDDD",
+            "type": "color"
+          },
+          "name": "colorBaseGrayLight",
+          "attributes": {},
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "light"
+          ]
+        },
+        "medium": {
+          "value": "#333333",
+          "type": "color",
+          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/literal/brand-two/color.json",
+          "isSource": true,
+          "original": {
+            "value": "#333333",
+            "type": "color"
+          },
+          "name": "colorBaseGrayMedium",
+          "attributes": {},
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "medium"
+          ]
+        },
+        "dark": {
+          "value": "#111111",
+          "type": "color",
+          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/literal/brand-two/color.json",
+          "isSource": true,
+          "original": {
+            "value": "#111111",
+            "type": "color"
+          },
+          "name": "colorBaseGrayDark",
+          "attributes": {},
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "dark"
+          ]
+        }
+      },
+      "red": {
+        "value": "#FF0000",
+        "type": "color",
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/literal/brand-two/color.json",
+        "isSource": true,
+        "original": {
+          "value": "#FF0000",
+          "type": "color"
+        },
+        "name": "colorBaseRed",
+        "attributes": {},
+        "path": [
+          "color",
+          "base",
+          "red"
+        ]
+      },
+      "green": {
+        "value": "#00FF00",
+        "type": "color",
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/literal/brand-two/color.json",
+        "isSource": true,
+        "original": {
+          "value": "#00FF00",
+          "type": "color"
+        },
+        "name": "colorBaseGreen",
+        "attributes": {},
+        "path": [
+          "color",
+          "base",
+          "green"
+        ]
+      }
+    }
+  }
+}

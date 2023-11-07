@@ -2,7 +2,8 @@
   "typography": {
     "base": {
       "value": "{font-size.medium}",
-      "comment": "the base size of the font"
+      "comment": "the base size of the font",
+      "type": "fontFamilies"
     }
   }
 }
