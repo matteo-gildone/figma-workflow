@@ -20,6 +20,10 @@
           "value": "#0000ff",
           "type": "color"
         },
+        "medium": {
+          "value": "#025E8D",
+          "type": "color"
+        },
         "light": {
           "value": "#ebf6ff",
           "type": "color"

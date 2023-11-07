@@ -11,6 +11,20 @@
     "tertiary": {
       "value": "{color.base.gray.light}",
       "type": "color"
+    },
+    "information": {
+      "warning": {
+        "value": "{color.base.yellow}",
+        "type": "color"
+      },
+      "alert": {
+        "value": "{color.base.red}",
+        "type": "color"
+      },
+      "info": {
+        "value": "{color.base.blue.}",
+        "type": "color"
+      }
     }
   }
 }
