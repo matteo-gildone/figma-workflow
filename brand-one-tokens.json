@@ -107,6 +107,23 @@
           "base",
           "green"
         ]
+      },
+      "blue": {
+        "value": "#ebf6ff",
+        "type": "color",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/literal/brand-one/color/color.json",
+        "isSource": true,
+        "original": {
+          "value": "#ebf6ff",
+          "type": "color"
+        },
+        "name": "colorBaseBlue",
+        "attributes": {},
+        "path": [
+          "color",
+          "base",
+          "blue"
+        ]
       }
     }
   },
