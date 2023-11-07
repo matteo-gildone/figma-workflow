@@ -110,6 +110,26 @@
       }
     }
   },
+  "font-family": {
+    "base": {
+      "value": "Lato",
+      "comment": "base font family",
+      "type": "fontFamilies",
+      "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/literal/brand-one/font-family/font-family.json",
+      "isSource": true,
+      "original": {
+        "value": "Lato",
+        "comment": "base font family",
+        "type": "fontFamilies"
+      },
+      "name": "fontFamilyBase",
+      "attributes": {},
+      "path": [
+        "font-family",
+        "base"
+      ]
+    }
+  },
   "font-size": {
     "small": {
       "value": "0.75rem",
@@ -218,22 +238,44 @@
   },
   "typography": {
     "base": {
-      "value": "1rem",
-      "comment": "the base size of the font",
-      "type": "fontFamilies",
-      "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/typography/typography.json",
-      "isSource": true,
-      "original": {
-        "value": "{font-size.medium}",
+      "size": {
+        "value": "1rem",
         "comment": "the base size of the font",
-        "type": "fontFamilies"
+        "type": "fontSizes",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/typography/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{font-size.medium}",
+          "comment": "the base size of the font",
+          "type": "fontSizes"
+        },
+        "name": "typographyBaseSize",
+        "attributes": {},
+        "path": [
+          "typography",
+          "base",
+          "size"
+        ]
       },
-      "name": "typographyBase",
-      "attributes": {},
-      "path": [
-        "typography",
-        "base"
-      ]
+      "family": {
+        "value": "Lato",
+        "comment": "the base size of the font",
+        "type": "fontFamilies",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/typography/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{font-family.base}",
+          "comment": "the base size of the font",
+          "type": "fontFamilies"
+        },
+        "name": "typographyBaseFamily",
+        "attributes": {},
+        "path": [
+          "typography",
+          "base",
+          "family"
+        ]
+      }
     }
   }
 }
