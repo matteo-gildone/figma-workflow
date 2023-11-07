@@ -25,3 +25,11 @@ jobs:
         run: npm ci
       - name: Build design tokens
         run: npm run tokens:figma
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Design Tokens Actions"
+          git config --global user.email "aaa@aaaa.com"
+          
+          git add -A
+          git commit -m "commit message"
+          git push
