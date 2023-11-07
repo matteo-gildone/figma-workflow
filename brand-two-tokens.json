@@ -6,7 +6,7 @@
           "light": {
             "value": "#dddddd",
             "type": "color",
-            "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+            "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-two/color.json",
             "isSource": false,
             "original": {
               "value": "#DDDDDD",
@@ -28,7 +28,7 @@
           "medium": {
             "value": "#333333",
             "type": "color",
-            "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+            "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-two/color.json",
             "isSource": false,
             "original": {
               "value": "#333333",
@@ -50,7 +50,7 @@
           "dark": {
             "value": "#111111",
             "type": "color",
-            "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+            "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-two/color.json",
             "isSource": false,
             "original": {
               "value": "#111111",
@@ -73,7 +73,7 @@
         "yellow": {
           "value": "#0000ff",
           "type": "color",
-          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/color/color.json",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-one/color/color.json",
           "isSource": false,
           "original": {
             "value": "#0000ff",
@@ -93,7 +93,7 @@
         "red": {
           "value": "#ff0000",
           "type": "color",
-          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-two/color.json",
           "isSource": false,
           "original": {
             "value": "#FF0000",
@@ -113,7 +113,7 @@
         "green": {
           "value": "#00ff00",
           "type": "color",
-          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-two/color.json",
           "isSource": false,
           "original": {
             "value": "#00FF00",
@@ -133,7 +133,7 @@
         "blue": {
           "value": "#ebf6ff",
           "type": "color",
-          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/color/color.json",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-one/color/color.json",
           "isSource": false,
           "original": {
             "value": "#ebf6ff",
@@ -157,7 +157,7 @@
         "value": "Lato",
         "comment": "base font family",
         "type": "fontFamilies",
-        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/font-family/font-family.json",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-one/font-family/font-family.json",
         "isSource": false,
         "original": {
           "value": "Lato",
@@ -179,7 +179,7 @@
         "value": "0.75rem",
         "comment": "the small size of the font",
         "type": "fontSizes",
-        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/font-size/font-size.json",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-one/font-size/font-size.json",
         "isSource": false,
         "original": {
           "value": "0.75rem",
@@ -199,7 +199,7 @@
         "value": "1rem",
         "comment": "the medium size of the font",
         "type": "fontSizes",
-        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/font-size/font-size.json",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-one/font-size/font-size.json",
         "isSource": false,
         "original": {
           "value": "1rem",
@@ -219,7 +219,7 @@
         "value": "2rem",
         "comment": "the large size of the font",
         "type": "fontSizes",
-        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/font-size/font-size.json",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/01_literal/brand-one/font-size/font-size.json",
         "isSource": false,
         "original": {
           "value": "2rem",
@@ -240,7 +240,7 @@
       "primary": {
         "value": "{color.base.red}",
         "type": "color",
-        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/02_alias/brand-one/palette/palette.json",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/02_alias/brand-one/palette/palette.json",
         "isSource": true,
         "original": {
           "value": "{color.base.red}",
@@ -258,7 +258,7 @@
       "secondary": {
         "value": "{color.base.green}",
         "type": "color",
-        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/02_alias/brand-one/palette/palette.json",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/02_alias/brand-one/palette/palette.json",
         "isSource": true,
         "original": {
           "value": "{color.base.green}",
@@ -276,7 +276,7 @@
       "tertiary": {
         "value": "{color.base.gray.light}",
         "type": "color",
-        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/02_alias/brand-one/palette/palette.json",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/02_alias/brand-one/palette/palette.json",
         "isSource": true,
         "original": {
           "value": "{color.base.gray.light}",
@@ -299,7 +299,7 @@
           "fontWeight": "400",
           "fontSize": "{font-size.medium}"
         },
-        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/02_alias/brand-one/typography/typography.json",
+        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/02_alias/brand-one/typography/typography.json",
         "isSource": true,
         "original": {
           "value": {
