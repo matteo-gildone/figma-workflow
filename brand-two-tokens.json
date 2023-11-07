@@ -400,6 +400,28 @@
             "info"
           ]
         }
+      },
+      "state": {
+        "hover": {
+          "value": "{color.base.gray.dark}",
+          "type": "color",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/palette/palette.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.gray.dark}",
+            "type": "color"
+          },
+          "attributes": {
+            "category": "palette",
+            "type": "state",
+            "item": "hover"
+          },
+          "path": [
+            "palette",
+            "state",
+            "hover"
+          ]
+        }
       }
     },
     "typography": {
