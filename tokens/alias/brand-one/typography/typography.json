@@ -7,11 +7,11 @@
       },
       "family": {
         "value": "{font-family.base}",
-        "type": "fontSizes"
+        "type": "fontFamilies"
       },
       "weight": {
         "value": "400",
-        "type": "fontSizes"
+        "type": "fontWeights"
       }
     }
   }
