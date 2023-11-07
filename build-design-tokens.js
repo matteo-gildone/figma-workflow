@@ -13,10 +13,10 @@ StyleDictionary.registerFormat({
 function getStyleDictionaryConfig(brand) {
     return {
         include: [
-            `${__dirname}/tokens/01_literal/**/*.json`,
+            `${__dirname}/tokens/literal/**/*.json`,
         ],
         source: [
-            `${__dirname}/tokens/02_alias/**/*.json`
+            `${__dirname}/tokens/alias/**/*.json`
         ],
         format: {
             figmaTokensPlugin: ({ dictionary }) => {

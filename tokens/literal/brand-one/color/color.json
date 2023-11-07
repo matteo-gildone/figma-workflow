@@ -15,9 +15,15 @@
           "type": "color"
         }
       },
-      "yellow": {
-        "value": "#0000ff",
-        "type": "color"
+      "blue": {
+        "dark": {
+          "value": "#0000ff",
+          "type": "color"
+        },
+        "light": {
+          "value": "#ebf6ff",
+          "type": "color"
+        }
       },
       "red": {
         "value": "#FF0000",
@@ -27,8 +33,8 @@
         "value": "#00FF00",
         "type": "color"
       },
-      "blue": {
-        "value": "#ebf6ff",
+      "yellow": {
+        "value": "#FFFF00",
         "type": "color"
       }
     }
