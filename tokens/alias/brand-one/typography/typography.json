@@ -19,6 +19,14 @@
           "type": "fontWeights"
         }
       }
+    },
+    "bold": {
+      "value": {
+        "fontFamily": "{font-family.base}",
+        "fontWeight": "{typography.base.bold}",
+        "fontSize": "{font-size.medium}"
+      },
+      "type": "typography"
     }
   }
 }
