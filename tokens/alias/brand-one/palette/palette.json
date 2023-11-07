@@ -22,7 +22,7 @@
         "type": "color"
       },
       "info": {
-        "value": "{color.base.blue.}",
+        "value": "{color.base.blue.medium}",
         "type": "color"
       }
     }
