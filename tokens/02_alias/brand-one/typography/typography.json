@@ -1,15 +1,10 @@
 {
   "typography": {
     "base": {
-      "size": {
-        "value": "{font-size.medium}",
-        "comment": "the base size of the font",
-        "type": "fontSizes"
-      },
-      "family": {
-        "value": "{font-family.base}",
-        "comment": "the base size of the font",
-        "type": "fontFamilies"
+      "value": {
+        "fontFamily": "{font-family.base}",
+        "fontWeight": "400",
+        "fontSize": "{font-size.medium}"
       }
     }
   }
