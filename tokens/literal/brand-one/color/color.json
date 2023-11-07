@@ -26,6 +26,10 @@
       "green": {
         "value": "#00FF00",
         "type": "color"
+      },
+      "blue": {
+        "value": "#ebf6ff",
+        "type": "color"
       }
     }
   }
