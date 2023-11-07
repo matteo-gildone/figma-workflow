@@ -1,94 +1,320 @@
 {
-  "color": {
-    "base": {
-      "gray": {
-        "light": {
-          "value": "#DDDDDD",
-          "type": "color",
-          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/literal/brand-two/color.json",
-          "isSource": true,
-          "original": {
-            "value": "#DDDDDD",
-            "type": "color"
+  "global": {
+    "color": {
+      "base": {
+        "gray": {
+          "light": {
+            "value": "#dddddd",
+            "type": "color",
+            "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+            "isSource": false,
+            "original": {
+              "value": "#DDDDDD",
+              "type": "color"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "gray",
+              "subitem": "light"
+            },
+            "path": [
+              "color",
+              "base",
+              "gray",
+              "light"
+            ]
           },
-          "name": "colorBaseGrayLight",
-          "attributes": {},
-          "path": [
-            "color",
-            "base",
-            "gray",
-            "light"
-          ]
-        },
-        "medium": {
-          "value": "#333333",
-          "type": "color",
-          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/literal/brand-two/color.json",
-          "isSource": true,
-          "original": {
+          "medium": {
             "value": "#333333",
+            "type": "color",
+            "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+            "isSource": false,
+            "original": {
+              "value": "#333333",
+              "type": "color"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "gray",
+              "subitem": "medium"
+            },
+            "path": [
+              "color",
+              "base",
+              "gray",
+              "medium"
+            ]
+          },
+          "dark": {
+            "value": "#111111",
+            "type": "color",
+            "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+            "isSource": false,
+            "original": {
+              "value": "#111111",
+              "type": "color"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "gray",
+              "subitem": "dark"
+            },
+            "path": [
+              "color",
+              "base",
+              "gray",
+              "dark"
+            ]
+          }
+        },
+        "yellow": {
+          "value": "#0000ff",
+          "type": "color",
+          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/color/color.json",
+          "isSource": false,
+          "original": {
+            "value": "#0000ff",
             "type": "color"
           },
-          "name": "colorBaseGrayMedium",
-          "attributes": {},
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "yellow"
+          },
           "path": [
             "color",
             "base",
-            "gray",
-            "medium"
+            "yellow"
           ]
         },
-        "dark": {
-          "value": "#111111",
+        "red": {
+          "value": "#ff0000",
           "type": "color",
-          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/literal/brand-two/color.json",
-          "isSource": true,
+          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+          "isSource": false,
           "original": {
-            "value": "#111111",
+            "value": "#FF0000",
             "type": "color"
           },
-          "name": "colorBaseGrayDark",
-          "attributes": {},
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "red"
+          },
           "path": [
             "color",
             "base",
-            "gray",
-            "dark"
+            "red"
+          ]
+        },
+        "green": {
+          "value": "#00ff00",
+          "type": "color",
+          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-two/color.json",
+          "isSource": false,
+          "original": {
+            "value": "#00FF00",
+            "type": "color"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "green"
+          },
+          "path": [
+            "color",
+            "base",
+            "green"
+          ]
+        },
+        "blue": {
+          "value": "#ebf6ff",
+          "type": "color",
+          "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/color/color.json",
+          "isSource": false,
+          "original": {
+            "value": "#ebf6ff",
+            "type": "color"
+          },
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "blue"
+          },
+          "path": [
+            "color",
+            "base",
+            "blue"
           ]
         }
-      },
-      "red": {
-        "value": "#FF0000",
-        "type": "color",
-        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/literal/brand-two/color.json",
-        "isSource": true,
+      }
+    },
+    "font-family": {
+      "base": {
+        "value": "Lato",
+        "comment": "base font family",
+        "type": "fontFamilies",
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/font-family/font-family.json",
+        "isSource": false,
         "original": {
-          "value": "#FF0000",
-          "type": "color"
+          "value": "Lato",
+          "comment": "base font family",
+          "type": "fontFamilies"
         },
-        "name": "colorBaseRed",
-        "attributes": {},
+        "attributes": {
+          "category": "font-family",
+          "type": "base"
+        },
         "path": [
-          "color",
-          "base",
-          "red"
+          "font-family",
+          "base"
+        ]
+      }
+    },
+    "font-size": {
+      "small": {
+        "value": "0.75rem",
+        "comment": "the small size of the font",
+        "type": "fontSizes",
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/font-size/font-size.json",
+        "isSource": false,
+        "original": {
+          "value": "0.75rem",
+          "comment": "the small size of the font",
+          "type": "fontSizes"
+        },
+        "attributes": {
+          "category": "font-size",
+          "type": "small"
+        },
+        "path": [
+          "font-size",
+          "small"
         ]
       },
-      "green": {
-        "value": "#00FF00",
+      "medium": {
+        "value": "1rem",
+        "comment": "the medium size of the font",
+        "type": "fontSizes",
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/font-size/font-size.json",
+        "isSource": false,
+        "original": {
+          "value": "1rem",
+          "comment": "the medium size of the font",
+          "type": "fontSizes"
+        },
+        "attributes": {
+          "category": "font-size",
+          "type": "medium"
+        },
+        "path": [
+          "font-size",
+          "medium"
+        ]
+      },
+      "large": {
+        "value": "2rem",
+        "comment": "the large size of the font",
+        "type": "fontSizes",
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/01_literal/brand-one/font-size/font-size.json",
+        "isSource": false,
+        "original": {
+          "value": "2rem",
+          "comment": "the large size of the font",
+          "type": "fontSizes"
+        },
+        "attributes": {
+          "category": "font-size",
+          "type": "large"
+        },
+        "path": [
+          "font-size",
+          "large"
+        ]
+      }
+    },
+    "palette": {
+      "primary": {
+        "value": "{color.base.red}",
         "type": "color",
-        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/literal/brand-two/color.json",
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/02_alias/brand-one/palette/palette.json",
         "isSource": true,
         "original": {
-          "value": "#00FF00",
+          "value": "{color.base.red}",
           "type": "color"
         },
-        "name": "colorBaseGreen",
-        "attributes": {},
+        "attributes": {
+          "category": "palette",
+          "type": "primary"
+        },
         "path": [
-          "color",
-          "base",
-          "green"
+          "palette",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "{color.base.green}",
+        "type": "color",
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/02_alias/brand-one/palette/palette.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.base.green}",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "palette",
+          "type": "secondary"
+        },
+        "path": [
+          "palette",
+          "secondary"
+        ]
+      },
+      "tertiary": {
+        "value": "{color.base.gray.light}",
+        "type": "color",
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/02_alias/brand-one/palette/palette.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.base.gray.light}",
+          "type": "color"
+        },
+        "attributes": {
+          "category": "palette",
+          "type": "tertiary"
+        },
+        "path": [
+          "palette",
+          "tertiary"
+        ]
+      }
+    },
+    "typography": {
+      "base": {
+        "value": {
+          "fontFamily": "{font-family.base}",
+          "fontWeight": "400",
+          "fontSize": "{font-size.medium}"
+        },
+        "filePath": "/Users/mgn/github/experiments/figma-workflow/tokens/02_alias/brand-one/typography/typography.json",
+        "isSource": true,
+        "original": {
+          "value": {
+            "fontFamily": "{font-family.base}",
+            "fontWeight": "400",
+            "fontSize": "{font-size.medium}"
+          }
+        },
+        "attributes": {
+          "category": "typography",
+          "type": "base"
+        },
+        "path": [
+          "typography",
+          "base"
         ]
       }
     }

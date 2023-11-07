@@ -1,22 +1,41 @@
-const { registerTransforms } = require('@tokens-studio/sd-transforms');
+const { transform } = require('@divriots/style-dictionary-to-figma');
 const StyleDictionary = require('style-dictionary');
 
-registerTransforms(StyleDictionary);
+StyleDictionary.registerFormat({
+    name: 'figmaTokensPlugin',
+    formatter: ({ dictionary }) => {
+        const transformedTokens = transform(dictionary.tokens);
+        return JSON.stringify(transformedTokens, null, 2);
+    },
+});
+
 // create a funcion
 function getStyleDictionaryConfig(brand) {
     return {
-        source: [
-            `${__dirname}/tokens/literal/${brand}/**/*.json`,
-            `${__dirname}/tokens/alias/${brand}/**/*.json`
+        include: [
+            `${__dirname}/tokens/01_literal/**/*.json`,
         ],
+        source: [
+            `${__dirname}/tokens/02_alias/**/*.json`
+        ],
+        format: {
+            figmaTokensPlugin: ({ dictionary }) => {
+                const transformedTokens = transform(dictionary.tokens);
+                return JSON.stringify(transformedTokens, null, 2);
+            },
+        },
         platforms: {
             json: {
-                transformGroup: 'tokens-studio',
+                transformGroup: 'js',
                 buildPath: './',
                 files: [
                     {
                         'destination': `${brand}-tokens.json`,
-                        'format': 'json'
+                        'format': 'figmaTokensPlugin',
+                        options: {
+                            outputReferences: true,
+                            showFileHeader: false
+                        }
                     },
                 ],
             },
