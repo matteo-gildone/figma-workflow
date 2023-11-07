@@ -25,6 +25,12 @@
         "value": "{color.base.blue.medium}",
         "type": "color"
       }
+    },
+    "state": {
+      "hover": {
+        "value": "{color.base.gray.dark}",
+        "type": "color"
+      }
     }
   }
 }
