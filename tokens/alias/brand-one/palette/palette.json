@@ -30,6 +30,10 @@
       "hover": {
         "value": "{color.base.gray.dark}",
         "type": "color"
+      },
+      "focus": {
+        "value": "{color.base.blue.light}",
+        "type": "color"
       }
     }
   }
