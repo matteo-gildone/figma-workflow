@@ -468,12 +468,12 @@
         },
         "family": {
           "value": "{font-family.base}",
-          "type": "fontSizes",
+          "type": "fontFamilies",
           "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/typography/typography.json",
           "isSource": true,
           "original": {
             "value": "{font-family.base}",
-            "type": "fontSizes"
+            "type": "fontFamilies"
           },
           "attributes": {
             "category": "typography",
@@ -488,12 +488,12 @@
         },
         "weight": {
           "value": "400",
-          "type": "fontSizes",
+          "type": "fontWeights",
           "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/typography/typography.json",
           "isSource": true,
           "original": {
             "value": "400",
-            "type": "fontSizes"
+            "type": "fontWeights"
           },
           "attributes": {
             "category": "typography",
