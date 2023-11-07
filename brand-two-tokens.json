@@ -446,28 +446,66 @@
     },
     "typography": {
       "base": {
-        "value": {
-          "fontFamily": "{font-family.base}",
-          "fontWeight": "400",
-          "fontSize": "{font-size.medium}"
+        "size": {
+          "value": "{font-size.medium}",
+          "type": "fontSizes",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/typography/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "{font-size.medium}",
+            "type": "fontSizes"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "base",
+            "item": "size"
+          },
+          "path": [
+            "typography",
+            "base",
+            "size"
+          ]
         },
-        "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/typography/typography.json",
-        "isSource": true,
-        "original": {
-          "value": {
-            "fontFamily": "{font-family.base}",
-            "fontWeight": "400",
-            "fontSize": "{font-size.medium}"
-          }
+        "family": {
+          "value": "{font-family.base}",
+          "type": "fontSizes",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/typography/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "{font-family.base}",
+            "type": "fontSizes"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "base",
+            "item": "family"
+          },
+          "path": [
+            "typography",
+            "base",
+            "family"
+          ]
         },
-        "attributes": {
-          "category": "typography",
-          "type": "base"
-        },
-        "path": [
-          "typography",
-          "base"
-        ]
+        "weight": {
+          "value": "400",
+          "type": "fontSizes",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/typography/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "400",
+            "type": "fontSizes"
+          },
+          "attributes": {
+            "category": "typography",
+            "type": "base",
+            "item": "weight"
+          },
+          "path": [
+            "typography",
+            "base",
+            "weight"
+          ]
+        }
       }
     }
   }
