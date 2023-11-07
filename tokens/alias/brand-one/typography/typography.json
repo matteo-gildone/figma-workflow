@@ -23,7 +23,7 @@
     "bold": {
       "value": {
         "fontFamily": "{font-family.base}",
-        "fontWeight": "{typography.base.bold}",
+        "fontWeight": "{font-weight.bold}",
         "fontSize": "{font-size.medium}"
       },
       "type": "typography"
