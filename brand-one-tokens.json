@@ -93,6 +93,28 @@
               "dark"
             ]
           },
+          "medium": {
+            "value": "#025e8d",
+            "type": "color",
+            "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/literal/brand-one/color/color.json",
+            "isSource": false,
+            "original": {
+              "value": "#025E8D",
+              "type": "color"
+            },
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "blue",
+              "subitem": "medium"
+            },
+            "path": [
+              "color",
+              "base",
+              "blue",
+              "medium"
+            ]
+          },
           "light": {
             "value": "#ebf6ff",
             "type": "color",
@@ -316,6 +338,68 @@
           "palette",
           "tertiary"
         ]
+      },
+      "information": {
+        "warning": {
+          "value": "{color.base.yellow}",
+          "type": "color",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/palette/palette.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.yellow}",
+            "type": "color"
+          },
+          "attributes": {
+            "category": "palette",
+            "type": "information",
+            "item": "warning"
+          },
+          "path": [
+            "palette",
+            "information",
+            "warning"
+          ]
+        },
+        "alert": {
+          "value": "{color.base.red}",
+          "type": "color",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/palette/palette.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.red}",
+            "type": "color"
+          },
+          "attributes": {
+            "category": "palette",
+            "type": "information",
+            "item": "alert"
+          },
+          "path": [
+            "palette",
+            "information",
+            "alert"
+          ]
+        },
+        "info": {
+          "value": "{color.base.blue.medium}",
+          "type": "color",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/palette/palette.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.blue.medium}",
+            "type": "color"
+          },
+          "attributes": {
+            "category": "palette",
+            "type": "information",
+            "item": "info"
+          },
+          "path": [
+            "palette",
+            "information",
+            "info"
+          ]
+        }
       }
     },
     "typography": {
