@@ -1,10 +1,17 @@
 {
   "typography": {
     "base": {
-      "value": {
-        "fontFamily": "{font-family.base}",
-        "fontWeight": "400",
-        "fontSize": "{font-size.medium}"
+      "size": {
+        "value": "{font-size.medium}",
+        "type": "fontSizes"
+      },
+      "family": {
+        "value": "{font-family.base}",
+        "type": "fontSizes"
+      },
+      "weight": {
+        "value": "400",
+        "type": "fontSizes"
       }
     }
   }
