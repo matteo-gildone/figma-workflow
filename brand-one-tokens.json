@@ -421,6 +421,26 @@
             "state",
             "hover"
           ]
+        },
+        "focus": {
+          "value": "{color.base.blue.light}",
+          "type": "color",
+          "filePath": "/home/runner/work/figma-workflow/figma-workflow/tokens/alias/brand-one/palette/palette.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.base.blue.light}",
+            "type": "color"
+          },
+          "attributes": {
+            "category": "palette",
+            "type": "state",
+            "item": "focus"
+          },
+          "path": [
+            "palette",
+            "state",
+            "focus"
+          ]
         }
       }
     },
